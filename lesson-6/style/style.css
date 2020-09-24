@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+.icons {
+    padding: 56px 345px 66px;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.icon_column {
+    width: 220px;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1275b9;
+    background-color: #1275b9;
+    width: 65px;
+    height: 63px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 22px;
+}
+.wrapper:hover {
+    color: #1275b9;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.head {
+    padding-top: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Kumbh Sans";
+    
+}
+
+.descr {
+    font-size: 14px;
+    font-family: "Kumbh Sans";
+    padding-top: 22px;
+    color: #9d9d9d;
+}
