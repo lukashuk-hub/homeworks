@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+
+}
+
+
+header {
+    height: 117px;
+    background-color: #4a4f56;
+    
+}
+.header_wrapper {
+    text-align: center;
+}
+h1 {
+    font-size: 26px;
+    color: #eb7e7f;
+    padding-top: 28px;
+}
+
+.head_decr {
+    font-size: 17px;
+    color: #eb7e7f;
+    padding-top: 18px;
+}
+
+.wrapper_list {
+    background-color: #3b3f45;
+    
+
+}
+
+.list{
+    font-size: 20px;
+    color: #ffffff;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 40px;
+                  
+}
+
+.checked {
+    display: none;
+}
+
+input[type='checkbox'] {
+    
+    opacity: 0;
+    width: 0;
+}
+
+.list li {
+    padding: 18px 18px 20px 15px;
+    list-style-type: none;
+    background-color: #88839e;
+    
+}
+.list li:hover {
+    background-color: #625e77;
+    cursor: pointer;
+    border: solid;
+    border-right: 0;
+    border-left: 0;
+    transition: all .3s ease-in;
+
+}
+
+
+img {
+    padding-right: 16px;
+}
+
+li input:checked + label  {
+    background-color: #7a7593;
+    color: #9a9db5;
+    text-decoration: line-through;  
+}
+
+
+li input:checked + label> .unchecked {
+    display: none;
+    
+}
+li input:checked + label> .checked {
+   display: inline-block;
+}
+
+li input:checked {
+    background-color: #7a7593;
+}
+
+
+
+footer {
+    background-color: #3b3f45;
+    padding-top: 40px;
+    height: 215px;
+}
+.wrapper_footer {
+    background-color: #4a4f56;
+    width: 50%;
+    margin: 0 auto;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #eb7e7f;
+    
+}
