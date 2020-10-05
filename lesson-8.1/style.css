@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    background-color: #b07cf7;
+    height: 100vh;
+}
+
+.header h1 {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 95px;
+}
+
+.header_descr {
+    height: 66px;
+    width: 563px;;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.blocks {
+    padding-top: 47px;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.block_content_1 {
+    position: relative;
+    width: 33.33%;
+    height: 310px;
+    background: linear-gradient(180deg, rgba(255,255,255, .1) 54%, rgba(0,5,11,1) 98%), url('./imgs/img_1.png') center no-repeat;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    margin-right: 50px;
+   
+}
+
+img {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.descr {
+    position: absolute;
+    top: 209px;
+    left: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    width: 307px;
+    font-weight: 700;
+}
+
+.author {
+    position: absolute;
+    bottom: 23px;
+    left: 20px;
+    font-size: 13px;
+    color: #ffffff;
+
+}
+
+.block_content_2 {
+    position: relative;
+    width: 33.33%;
+    height: 310px;
+    background: linear-gradient(180deg, rgba(255,255,255, .1) 54%, rgba(0,5,11,1) 98%), url('./imgs/img_2.png') center no-repeat;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    margin-right: 50px;
+}
+.block_content_3 {
+    position: relative;
+    width: 33.33%;
+    height: 310px;
+    background: linear-gradient(180deg, rgba(255,255,255, .1) 54%, rgba(0,5,11,1) 98%), url('./imgs/img_3.png') center no-repeat;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+
+
+.btn {
+    width: 202px;
+    height: 57px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f72b3b;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+.btn a {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: block;
+    transform: translateY(70%);
+    text-decoration: none;
+}
