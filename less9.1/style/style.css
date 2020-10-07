@@ -107,3 +107,18 @@ body {
     position: absolute;
     top: 313px;
 }
+.footer_content {
+    color: #99a5b0;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_content p {
+    padding-left: 14px;
+    margin-top: 80px;
+}
+
+.footer_content img {
+    margin-top: 63px;
+}
