@@ -1,0 +1,109 @@
+* {
+    font-family: "Hans Kendrick - Heavy";
+}
+@font-face {
+    font-family: "Hans Kendrick - Heavy";
+    src: url('../fonts/HansKendrick-Regular.otf')
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #e2e7ec;
+}
+
+.block_car {
+    background: linear-gradient(180deg, rgba(255,255,255, .1) 41%, rgba(8,9,11,1) 100%), url('../img/car.png');
+    background-repeat: no-repeat;
+    position: relative;
+    height: 540px;
+    max-width: 730px;
+}
+.block_car p {
+    position: absolute;
+    top: 404px;
+    left: 46px;
+    text-transform: uppercase;
+    color: #818181;
+}
+.block_car h2 {
+    position: absolute;
+    top: 440px;
+    left: 46px;
+    width: 433px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.second_block {
+    position: relative;
+    background-color:#ffffff;
+    max-width: 360px;
+    height: 540px;
+}
+.second_block p {
+    position: absolute;
+    top: 279px;
+    left: 28px;
+    color: #1d1d1d;
+    text-transform: uppercase;
+}
+
+.second_block h2 {
+    position: absolute;
+    top: 313px;
+    left: 28px;
+    width: 307px;
+    color: #1d1d1d;
+    text-transform: uppercase;
+}
+.second_block .icon {
+    position: absolute;
+    top: 461px;
+    left: 28px;
+    width: 54px;
+    height: 54px;
+}
+
+.other_blocks {
+    background-color:#ffffff;
+    max-width: 360px;
+    height: 540px;
+    margin-left: 10px;
+}
+
+.other_blocks p {
+    position: absolute;
+    top: 279px;
+    left: 28px;
+    color: #1d1d1d;
+    text-transform: uppercase;
+}
+
+.other_blocks h2 {
+    position: absolute;
+    top: 313px;
+    left: 28px;
+    width: 307px;
+    color: #1d1d1d;
+    text-transform: uppercase;
+}
+
+.other_blocks .icon {
+    position: absolute;
+    top: 461px;
+    left: 28px;
+    width: 54px;
+    height: 54px;
+}
+ 
+.find_design {
+    margin-left: 0;
+}
+
+.choosing_website h2 {
+    position: absolute;
+    top: 313px;
+}
