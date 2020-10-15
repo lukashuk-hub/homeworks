@@ -6,8 +6,7 @@
 
 @font-face {
     font-family: 'Georgia Regular';
-    src: url('Georgia.eot');
-    src: url('Georgia.eot?#iefix') format('embedded-opentype'),
+    src: 
     url('Georgia.woff') format('woff'),
     url('Georgia.ttf') format('truetype');
     font-weight: normal;
@@ -24,11 +23,29 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'Proxima Nova Regular';
-    src: url('ProximaNova-Regular.eot');
-    src: url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    font-family: 'Proxima Nova';
+    src: 
     url('ProximaNova-Regular.woff') format('woff'),
     url('ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Futura PT';
+    src: 
+    url('FuturaPT-Book.woff') format('woff'),
+    url('FuturaPT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display Regular';
+    src: 
+    url('PlayfairDisplay-Regular.woff') format('woff'),
+    url('PlayfairDisplay-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -61,7 +78,7 @@ body {
     padding-top: 65px;
     margin-left: 64px;
     color: #fefefe;
-    font-family: "Playfair Display";
+    font-family: 'Playfair Display Regular';
     font-size: 52px;
     font-weight: 400;
 
@@ -126,7 +143,7 @@ body {
     top: 266px;
     left: 127px;
     color: #2a2a2a;
-    font-family: "Futura PT - Heavy";
+    font-family: 'Futura PT';
     font-size: 78px;
     font-weight: 400;
     text-transform: uppercase;
@@ -136,7 +153,8 @@ body {
 
 .content h2 {
     color: #8f8f8f;
-    font-family: Georgia;
+    font-family: 'Georgia Regular';
+    font-style: italic;
     font-size: 30px;
     line-height: 62.44px;
     position: absolute;
@@ -169,5 +187,5 @@ body {
 }
 
 .first_p span {
-    font-family: "Georgia - Italic";
+    font-family: 'Georgia Italic';
 }
