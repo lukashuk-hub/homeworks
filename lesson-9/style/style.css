@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    height: 600px;
+    width: 1200px;
+    background-color: #fdde7e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.img_cup {
+    display: flex;
+    justify-content: center;
+}
+
+.content_cups {
+    height: 441px;
+    width: 360px;
+    background-color: #fff;
+}
+
+.price {
+    color: #02995b;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    letter-spacing: 1.75px;
+    font-size: 70px;
+}
+
+.text_header {
+    display: flex;
+    justify-content: center;
+    color: #333333;
+    font-family: Lato;
+    font-size: 20px;
+    padding-top: 35px;
+    font-weight: 700;
+}
+
+.text_descr {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-family: Miso;
+
+}
+.text_descr p {
+    width: 155px;
+    text-align: center;
+}
+
+.content_cups_center {
+    height: 500px;
+}
+
+.content_cups_center .price {
+    padding-top: 50px;
+}
