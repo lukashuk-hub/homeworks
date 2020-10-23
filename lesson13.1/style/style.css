@@ -72,6 +72,13 @@ Img {
     width: 579px;
 }
 
+.icon-mouse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
 /* section about us */
 
 .about-us {
