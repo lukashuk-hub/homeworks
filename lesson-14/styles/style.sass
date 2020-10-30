@@ -1,0 +1,190 @@
+* 
+    font-family: 'Raleway', sans-serif
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+img 
+    max-width: 100%
+    display: block
+
+$text_color: #ffcc00
+
+
+.wrapper_team
+    display: flex
+    justify-content: center
+    .team_header
+        padding-top: 6.6rem
+        width: 450px
+        p
+            color: #898f8f
+            text-align: center
+            font-size: 1.125rem
+            font-weight: 500
+            font-style: normal
+        h1
+            color: $text_color
+            text-align: center
+            font-size: 	3.75rem
+            font-weight: 400
+        .icon_header
+            text-align: center
+            color: $text_color
+            position: relative
+        .icon_header::before
+            content: ""
+            display: block
+            position: absolute
+            width: 12.5rem
+            height: 2px
+            background-color: $text_color
+            top: 50%
+        .icon_header::after
+            content: ""
+            display: block
+            position: absolute
+            width: 12.5rem
+            height: 2px
+            background-color: $text_color
+            top: 50%
+            right: 0
+
+.wrapper_content
+    padding-top: 120px
+    max-height: 560px
+    display: flex
+    align-items: center 
+    position: relative
+
+    .content_photo
+        display: flex
+        justify-content: center
+        width: 50%  
+
+        .corners_photo
+            position: relative
+            margin-left: 25%
+            border: 1px solid $text_color
+            padding: 10px
+
+            .photo_item
+                border: 1px double $text_color 
+                position: relative 
+                z-index: 999
+        .corners_photo::before
+            content: ""
+            position: absolute
+            display: block
+            height:  calc( 100% +  25px)
+            width: 50%
+            top: -15px
+            left: 25%
+            background-color: #ffffff
+            z-index: 2
+        .corners_photo::after
+            content: ""
+            position: absolute
+            display: block
+            height: 50%
+            width: calc( 100% + 25px  )
+            background-color:  #ffffff
+            z-index: 2
+            left: -15px
+            bottom: 25%
+
+           
+
+    .vertical_align::after
+        content: ""
+        position: absolute
+        height: 100%
+        width: 2px
+        background-color: $text_color
+        top: 7%  
+
+    .content_defenition
+        width: 29%  
+        display: flex
+        flex-direction: column
+        padding-left: 5%
+        text-align: center
+        .name 
+            color: #666666
+            font-size: 2.5rem
+            font-weight: 400
+            padding-bottom: 1rem
+            margin-top: -2.5rem
+            position: relative
+        .name::after 
+            content: ""
+            position: absolute
+            width: 6.3rem
+            height: 2px
+            background-color: $text_color 
+            bottom: 0
+            left: 39%
+        .soc_items
+            padding-top: 1rem
+            display: flex
+            justify-content: center
+            align-items: center
+            .icons_item
+                width: 30px
+                height: 30px
+                border-radius: 50%   
+                list-style: none
+                margin-right: 5px 
+            .icons_item:hover 
+                background-color:  $text_color       
+        .profession 
+            color: #666666
+            font-size: 1.5rem
+            font-weight: 400 
+            padding-top: 1.9rem 
+        .content_descr 
+            padding-top: 1rem 
+            color: #333333
+            font-size: .9rem
+            font-weight: 500  
+        .wrapper_btn
+            display: flex
+            justify-content: center    
+            .btn
+                display: flex
+                align-items: center
+                justify-content: center
+                margin-top:  3.3rem 
+                width: 120px
+                height: 24px
+                border: 1px solid #ffcc00
+                text-decoration: none
+                color: #666666
+                font-weight: 700
+                font-size: .75rem
+            .btn:hover
+                background-color: $text_color 
+.carousel-control-prev,
+.carousel-control-next
+    position: absolute
+    top: 40%
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon
+        background-image: none
+        font-size: 3rem
+        color: $text_color 
+.carousel-indicators 
+    bottom: -5rem
+    li
+        background-color: $text_color
+        width: 10px
+        height: 10px
+        border-radius: 50%
+        
+
+   
+      
+  
+
+
+
