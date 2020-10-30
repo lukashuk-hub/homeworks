@@ -55,10 +55,6 @@ body, html {
     width: 41%;
 }
 
-textarea {
-    resize: none;
-}
-
 .fields input {
     background-color: #00c4c4;
     opacity: 0.5;

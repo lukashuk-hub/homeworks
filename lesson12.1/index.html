@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Lukashuk</title>
+</head>
+<body>
+    <section>
+        <div class="wrapper-form">
+            <div class="forms-fields">
+                <!-- <div class="form-tabs"> -->
+                    <input id="log_in" value="log_in" name="tab" class="tab__log_in" type="radio">
+                    <label class="label__log_in" for="log_in">Sign in</label>
+    
+                    <input id="join_us" value="join_us" name="tab" class="tab__join_us" type="radio">
+                    <label class="label__join_us" for="join_us">Join us</label>
+    
+                <!-- </div> -->
+    
+                <form class="sign__in__field" action="#" method="GET">
+                    <div class="sign__in__username">
+                        <label for="username__sign__in">Username</label>
+                        <input required id="username__sign__in" class="sign__in__name" type="text" minlength="3">
+                        
+                        <div class="tab__error">error</div>
+                    </div>
+    
+                    <div class="password__field__sign__in">
+                        <label for="password__sign__in">Password</label>
+                        <input required id="password__sign__in" class="sign__in__pass" type="password" minlength="8">
+                        
+                        <div class="tab__error">error</div>
+                    </div>
+    
+                    <div class="checkbox">
+                        <input type="checkbox" class="tab__check" id="tab__check">
+                        <label class="label__checkbox" name="sign-in__check" for="tab__check"> 
+                            <span class="form__checkbox">&#10004;</span>
+                            Keep me signed in</label>
+                    </div>
+    
+                    <button class="tab__submit" type="submit">Sign in</button>
+    
+    
+                <div class="tabs__links">
+                    <label for="#"><u>Forgot password</u></label>
+                    <label for="join_us"><u>Create an account</u></label>
+                </div>
+                </form>
+    
+                <form class="join__us__field" action="#" method="GET">
+                    <div class="join__us_username">
+                        <label for="username__join__us">Username</label>
+                        <input required id="username__join__us" class="join__us__name" type="text" minlength="3">
+                        
+                        <div class="tab__error">error</div>
+                    </div>
+    
+                    <div class="password__field__join__us">
+                        <label for="password__join__us">Password</label>
+                        <input required id="password__join__us" class="join__us__pass" type="password" minlength="8">
+                        
+                        <div class="tab__error">error</div>
+                    </div>
+    
+                    <div class="password__field__join__us pass_repeat">
+                        <label for="repaet__password__join__us">Password</label>
+                        <input required id="repaet__password__join__us" class="join__us__pass" type="password" minlength="8">
+                        
+                        <div class="tab__error">error</div>
+    
+                        <button class="tab__submit" type="submit">Join us</button>
+
+                        <div class="tabs__links">
+                            <label for="#"><u>Forgot password</u></label>
+                            <label for="join_us"><u>Create an account</u></label>
+                        </div>
+                </form>
+            </div>
+            </div>
+    </section>
+</body>
+</html>

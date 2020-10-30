@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/bootstrap-grid.min.css">
     <title>Lukashuk</title>
 </head>
 <body>
+    <header class="header">
+       <div class="container">
+        <div class="header-wrapper">
+            <div class="header-logo">
+                <a href="#"><img class="logo-img" src="./imgs/logo.png" alt="logo"></a>
+            </div>
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li><a class="nav__item" href="#">HOME</a></li>
+                    <li><a class="nav__item" href="#about_us">ABOUT</a></li>
+                    <li><a class="nav__item" href="#services">SERVICES</a></li>
+                    <li><a class="nav__item" href="#gallery">GALLERY</a></li>
+                    <li><a class="nav__item" href="#blog">BLOG</a></li>
+                    <li><a class="nav__item" href="#form">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+       </div>
+    </header>
     <section class="inner">
         <div class="wrapper">
             <div class="container-intro container">
-                <header class="header">
-                    <div class="header-logo">
-                        <img class="logo-img" src="./imgs/logo.png" alt="logo">
-                    </div>
-                    <nav class="header-nav">
-                        <ul class="nav-list">
-                            <li><a class="nav__item" href="#">HOME</a></li>
-                            <li><a class="nav__item" href="#">ABOUT</a></li>
-                            <li><a class="nav__item" href="#">SERVICES</a></li>
-                            <li><a class="nav__item" href="#">GALLERY</a></li>
-                            <li><a class="nav__item" href="#">BLOG</a></li>
-                            <li><a class="nav__item" href="#">CONTACT</a></li>
-                        </ul>
-                    </nav>
-                </header>
+               
                 <div class="block-descr">
                     <div class="descr__title">Fresh Life</div>
                     <div class="descr__defenition">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -37,11 +43,14 @@
         </div>
         </div>
     </section>
-    <section class="about">
+
+       <!--  section about_us -->
+
+    <section id="about_us" class="about">
         <div class="container">
             <div class="wrapper-about">
                 <div class="about-img">
-                    <img class="img__about_pic" src="/imgs/img_about.png" alt="img_about">
+                    <img class="img__about_pic" src="./imgs/img_about.png" alt="img_about">
                 </div>
                 <div class="about-descr">
                     <h2 class="about__title">About Us</h2>
@@ -56,7 +65,10 @@
             </div>
         </div>
     </section>
-    <section class="services">
+
+       <!--  section services -->
+
+    <section id="services" class="services">
         <div class="services-content">
             <div class="content-list">
                 <li class="list__items"><a class="link__item" href="#">
@@ -91,7 +103,9 @@
             </div>
         </div>
     </section>
-    <section class="gallery">
+       <!--  section gallery -->
+
+    <section id="gallery" class="gallery">
         <div class="container">
             <div class="gallery-defenition">
                 <div class="gallery__title">Gallery</div>
@@ -99,23 +113,29 @@
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                     ex ea commodo consequat.</div>
             </div>
-            <div class="gallery-imgs">
-                <a class="gallery__imgs__content" href="#"><img src="./imgs/img_gallery/img_peach.png" alt="img_peach"></a>
-                <div class="imgs__berry">
-                    <a class="gallery__imgs__content" href="#"><img src="./imgs/img_gallery/img_blueberry.png"
-                            alt="img_blueberry"></a>
-                    <a class="gallery__imgs__content" href="#"><img src="./imgs/img_gallery/img_blackberry.png"
-                            alt="img_blackberry"></a>
-                </div>
-                <a class="gallery__imgs__content" href="#"> <img src="./imgs/img_gallery/img_milk.png" alt="img_milk"></a>
-                <a class="gallery__imgs__content" href="#"><img src="./imgs/img_gallery/img_persimmon.png"
-                        alt="img_persimmon"></a>
+            <div class="row">
+                <div class="col-lg-8 col-xl-8 col-md-8 col-sm-8"><img class="gallery__img" src="./imgs/img_gallery/img_peach.png" alt="img_peach"></div>
+
+                <div  class="col-lg-3 col-xl-4 col-md-3 col-sm-3 imgs_berry">
+                    <img class="gallery__img" src="./imgs/img_gallery/img_blueberry.png" alt="img_blueberry">
+                    <img class="gallery__img" src="./imgs/img_gallery/img_blackberry.png" alt="img_blackberry">
+                </div>                
             </div>
-            <div class="descr-btn btn_grey">
-                <a class="btn_link" href="#">VIEW MORE</a>
+            <div class="row">
+                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><img class="gallery__img" src="./imgs/img_gallery/img_milk.png" alt="img_milk"></div> 
+                
+                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><img class="gallery__img" src="./imgs/img_gallery/img_persimmon.png" alt=""></div>
+            </div>
+            
+            <div class="btn-wrapper">
+                <div class="descr-btn btn_grey">
+                    <a class="btn_link" href="#">VIEW MORE</a>
+                </div>
             </div>
         </div>
     </section>
+            <!-- section subscribe -->
+
     <section class="subscribe">
         <div class="container">
             <div class="subscibe-defenition">
@@ -134,7 +154,10 @@
             </div>
         </div>
     </section>
-    <section class="blog">
+
+       <!--  section blog -->
+
+    <section id="blog" class="blog">
         <div class="container">
             <div class="blog-defenition">
                 <div class="blog__title">
@@ -146,48 +169,40 @@
                 </div>
             </div>
             <div class="blog-blocks">
-                <div class="content-smoothie">
-                    <img class="content__img" src="./icons/20nov.png" alt="20nov">
-    
-                    <div class="block__descr">
-                        Green Smoothies: Too Much of a Good Thing?
+                   <a class="blocks__item" href="">
+                       <img class="item__icon" src="./icons/20nov.png" alt="20nov">
+                       <div class="item__content">
+                           <div class="content__descr">Green Smoothies: Too Much of a Good Thing?</div>
+                           <div class="content__author">By Auskteez - 2 hours ago</div>
+                       </div>
+                   </a>
+                   <a class="blocks__item" href="">
+                    <img class="item__icon" src="./icons/14nov.png" alt="14nov">
+                    <div class="item__content">
+                        <div class="content__descr">Green Smoothies: Too Much of a Good Thing?</div>
+                        <div class="content__author">By Auskteez - 2 hours ago</div>
                     </div>
-                    <div class="block__author">
-                        By Auskteez - 2 hours ago
+                </a>
+                <a class="blocks__item" href="">
+                    <img class="item__icon" src="./icons/10nov.png" alt="10nov">
+                    <div class="item__content">
+                        <div class="content__descr">Green Smoothies: Too Much of a Good Thing?</div>
+                        <div class="content__author">By Auskteez - 2 hours ago</div>
                     </div>
-                </div>
-    
-    
-                <div class="content-peas block-content">
-                    <div class="wrapper-content">
-                        <img class="content__img" src="./icons/14nov.png" alt="14nov">
-                        <div class="block__descr">
-                            Growing Food and a “Thirst” for Innovation
-                        </div>
-                        <div class="block__author">
-                            By Auskteez - 3 hours ago
-                        </div>
-                    </div>
-                </div>
-    
-    
-                <div class="content-raspberries">
-                    <img class="content__img" src="./icons/10nov.png" alt="10nov">
-                    <div class="block__descr">
-                        Pesticides & Food: What You Need to Know
-                    </div>
-                    <div class="block__author">
-                        By Auskteez - 6 hours ago
-                    </div>
-                </div>
+                </a>
             </div>
     
+           <div class="btn-wrapper">
             <div class="descr-btn btn__blog">
                 <a class="btn_link" href="#">VIEW MORE</a>
             </div>
+           </div>
         </div>
     </section>
-    <section class="form">
+
+        <!-- section contact -->
+
+    <section id="form" class="form">
         <div class="container">
             <div class="form-defenition">
                     <div class="form__title">Contact</div>
