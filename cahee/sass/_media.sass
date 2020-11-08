@@ -1,0 +1,229 @@
+@media ( max-width: 320px )
+	.services 
+		.wrapper_services 
+			.services_items
+				.list_item
+					width: 228px
+
+	.gallery 
+		.gallery_defenition h2
+			font-size: 45px
+		.gallery_defenition p
+			font-size: 14px
+		.gallery_imgs img
+			margin-bottom: 0
+				
+		
+	
+	
+@media ( max-width: 420px )
+	.services 
+		.container
+			width: 100%
+		.wrapper_services 
+			justify-content: center
+			.services_items
+				.list_item
+					width: 270px
+	.intro
+		background: url(../img/bgi_main.png) center right/cover no-repeat
+		.intro_title
+			text-align: center
+		.intro_descr
+			text-align: center
+		.wrapper_btn
+			margin: 0 auto
+		
+	.about
+		.wrapper_about
+			justify-content: center
+			.about_img img
+				display: none
+
+	.services 
+		.wrapper_services 
+			flex-direction: column-reverse
+			padding-top: 0
+			.services_img 
+				background-image: none
+			.services_img h2
+				font-size: 45px
+		
+	.gallery 
+		.gallery_defenition h2
+			font-size: 45px
+		.gallery_defenition p
+			font-size: 15px
+		.gallery_imgs img
+			margin-bottom: 0
+			width: 100%
+
+	.subscribe
+		.comtent_subscribe
+			width: 100%
+			.subscribe_descr
+				font-size: 14px
+			input
+				width: 100%
+				margin-bottom: 10px
+			.subscribe_btn
+				width: 100%
+
+	.blog
+		.blog_content 
+			.blog_title
+				font-size: 45px
+			.blog_descr
+				font-size: 15px
+
+
+	.contact 
+		.contact_defenition 
+			.contact_title
+				font-size: 50px
+
+	
+	.footer
+		.footer_wrapper
+			.footer_reserved
+				font-size: 12px
+			.footer_made
+				font-size: 12px
+				
+			
+
+
+
+@media ( max-width: 767px )
+	.header
+		.menu_items
+			position: fixed
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			top: 0
+			right: -100%
+			width: 50%
+			height: 100vh
+			padding: 20px 15px
+			background-color: rgba(0, 177, 177, .7)
+			transition: 0.6s all
+		.menu_active
+			right: 0
+			.menu_item
+				margin: 10px 0
+			.menu_item a
+				color: #ffffff
+		.hamburger
+			display: block
+			position: absolute
+			right: 10px
+			top: 50px
+			transform: translateY(-50%)
+			width: 30px
+			height: 12px
+			z-index: 3
+			span
+				display: block
+				height: 2px
+				width: 100%
+				background-color: #000000
+				margin-bottom: 2px
+				transition: .5s all		
+			&_active
+				span
+					margin-bottom: -2px 
+					&:nth-child(1)
+						transform: rotate(45deg)
+					&:nth-child(2)
+						display: none
+					&:nth-child(3)
+						transform: rotate(-45deg) 
+
+	.services 
+		.wrapper_services 
+			flex-direction: column-reverse
+			padding-top: 0
+			.services_img 
+				background-image: none
+			.services_img h2
+				font-size: 50px
+
+	.gallery 
+		.gallery_defenition h2
+			font-size: 45px
+		.gallery_defenition p
+			font-size: 15px
+		.gallery_imgs img
+			margin-bottom: 0
+			width: 100%
+
+	.subscribe
+		.comtent_subscribe
+			width: 100%
+			input
+				width: 70%
+			.subscribe_btn
+				width: 50%
+
+	.blog
+		.blog_imgs 
+			display: flex
+			flex-direction: column
+			.img_link
+				margin-left: 0
+				margin-bottom: 20px
+			.img_link:last-child
+				margin-bottom: 0
+			
+								
+	
+@media ( max-width: 1000px )
+	.header
+		.header_wrapper
+			.logo
+				font-size: 45px
+			.menu_item
+				margin-left: 15px
+			.menu_item a
+				font-size: 13px 
+		
+	.intro 
+		.wrapper_content 
+			.intro_content 
+				.intro_descr	
+					font-size: 15px
+	.about
+		.wrapper_about
+			.about_content
+				.about_title
+					font-size: 45px
+				.about_descr
+					font-size: 15px
+
+	.blog
+		.blog_imgs 
+			.blog_date
+				width: 45px
+				height: 45px
+			.link_descr
+				.link_title
+					font-size: 16px
+					font-weight: 400
+				.link_author
+					font-size: 12px
+
+	.contact 
+		.contact_defenition 
+			.contact_title
+				font-size: 60px
+		.form_contact
+			flex-direction: column-reverse
+			.fields
+				width: 100%
+
+
+
+
+
+		
