@@ -1,0 +1,402 @@
+.container
+	width: 80%
+	margin: 0 auto
+
+.header
+	position: absolute
+	width: 100%
+	z-index: 2
+	.header_wrapper
+		display: flex
+		justify-content: space-between
+		align-items: center
+		.logo
+			color: #262626
+			font-family: 'Pacifico', cursive
+			font-size: 50px
+		.header_menu .menu_items
+			display: flex
+		.header_menu .humburger
+			display: none
+		.header_menu .menu_item
+			list-style-type: none
+			margin-left: 30px
+		.menu_item a
+			text-decoration: none
+			font-family: 'Raleway', sans-serif
+			font-size: 16px
+			font-weight: 700
+			color: #262626
+			position: relative
+			padding-top: 5px
+		.menu_item a::before
+			content: ""
+			position: absolute
+			height: 3px
+			width: 100%
+			top: 0
+			background-color: #ff6033
+			opacity: 0
+			transition: all .5s ease-out
+		.menu_item a:hover::before
+			opacity: 1
+
+.intro
+	background: url('../img/bgi_main.png') center center/cover no-repeat
+	height: 100vh
+	position: relative
+	.intro img
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0
+		z-index: 1
+	.wrapper_content
+		height: 100vh
+		display: flex
+		align-items: center
+		.intro_content
+			width: 310px
+			.intro_title
+				font-family: 'Raleway', sans-serif
+				font-weight: 400
+				font-size: 60px
+				color: #262626
+			.intro_descr
+				color: #262626
+				font-size: 17px
+				font-weight: 300
+				font-family: 'Raleway', sans-serif
+			.wrapper_btn
+				display: flex
+				justify-content: center
+				align-items: center
+				width: 200px
+				height: 55px
+				background-color: #ff6033
+				margin-top: 30px
+				.intro_btn
+					text-decoration: none
+					font-size: 20px
+					font-weight: 300
+					color: #ffffff
+					font-family: 'Raleway', sans-serif
+			.wrapper_btn:hover
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5)
+
+.about
+	background-color: #00b0b0
+	max-height: 700px
+	.wrapper_about
+		display: flex
+		justify-content: space-around
+		align-items: center
+		.about_content
+			width: 50%
+			.about_title
+				text-align: center
+				font-family: 'Raleway', sans-serif
+				color: #ffffff
+				font-size: 90px
+				font-weight: 700
+			.about_descr
+				text-align: center
+				font-size: 17px
+				font-weight: 300
+				font-family: 'Raleway', sans-serif
+				color: #ffffff
+
+.services
+	background-color: #70bfff
+	padding-bottom: 150px
+	.wrapper_services
+		display: flex
+		justify-content: space-between
+		padding-top: 100px
+		.services_items
+			display: flex
+			flex-direction: column
+			list-style-type: none
+			padding-top: 50px
+			.list_item
+				padding: 0 20px 0
+				height: 100px
+				width: 300px
+				background-color: #ffffff
+				margin-bottom: 20px
+				box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5)
+				.link_item
+					position: relative
+					height: 100%
+					text-decoration: none
+					display: flex
+					justify-content: space-between
+					align-items: center
+					text-align: center
+					font-weight: 700
+					font-family: 'Raleway', sans-serif
+					color: #262626
+					font-size: 20px
+		.services_img
+			width: 50%
+			background-image: url('../img/img_serv_main.png')
+			background-repeat: no-repeat
+			background-position: center
+			background-size: contain
+			display: flex
+			align-items: center
+		.services_img h2
+			color: #ffffff
+			font-size: 90px
+			font-weight: 700
+			font-family: 'Raleway', sans-serif
+
+.gallery
+	background-color: #ffe92f
+	.gallery_defenition
+		max-width: 577px
+		margin: 0 auto
+	.gallery_defenition h2
+		color: #262626
+		font-size: 90px
+		font-weight: 700
+		font-family: 'Raleway', sans-serif
+		text-align: center
+	.gallery_defenition p
+		font-size: 17px
+		font-weight: 300
+		font-family: 'Raleway', sans-serif
+		text-align: center
+		padding-bottom: 46px
+	.gallery_imgs img:hover
+		box-shadow: 0px 11px 14px 4px rgba(0,0,0,0.75)
+	.imgs_berry img
+		margin-bottom: 25px
+	.wrapper_btn
+		padding-bottom: 100px
+		.gallery_btn
+			margin: 0 auto
+			display: flex
+			justify-content: center
+			align-items: center
+			width: 200px
+			height: 55px
+			background-color: #5585a2
+			margin-top: 50px
+		.gallery_btn a 
+			text-decoration: none
+			font-size: 20px
+			font-weight: 300
+			color: #ffffff
+			font-family: 'Raleway', sans-serif
+		.wrapper_btn:hover
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5)
+
+.subscribe
+	max-height: 500px
+	background: url('../img/bgi_subscribe.png') center center/cover no-repeat
+	background-position: center
+	background-repeat: no-repeat
+	background-size: cover
+	.comtent_subscribe
+		width: 78%
+		padding: 80px 0 160px 0
+		.subscribe_title
+			color: #262626
+			font-family: 'Raleway', sans-serif
+			font-size: 40px
+			font-weight: 700
+		.subscribe_descr
+			width: 78%
+			padding-top: 34px
+			color: #262626
+			font-family: 'Raleway', sans-serif
+			font-size: 17px
+			font-weight: 300
+		input
+			outline: none
+			border: 1px solid #262626
+			height: 50px
+			width: 70%
+			margin-top: 30px
+			font-family: 'Raleway', sans-serif
+			margin-right: 30px
+			margin-bottom: 10px
+		.subscribe_btn
+			outline: none
+			border: none
+			color: #ffffff
+			font-family: 'Raleway', sans-serif
+			font-size: 20px
+			font-weight: 300
+			width: 170px
+			height: 54px
+			background-color: #96b92c
+		.subscribe_btn:hover
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5)
+			cursor: pointer
+
+.blog 
+	background-color: #b07cf7
+	.blog_content
+		padding-top: 100px
+		text-align: center
+		.blog_title
+			color: #ffffff
+			font-family: 'Raleway', sans-serif
+			font-size: 90px
+			font-weight: 700
+		.blog_descr
+			color: #ffffff
+			font-family: 'Raleway', sans-serif
+			font-size: 17px
+			font-weight: 300
+			padding-top: 30px
+	.blog_imgs
+		padding-bottom: 50px
+		margin-top: 47px
+		display: flex
+		justify-content: center
+		align-items: center
+		.img_link
+			margin-left: 30px
+			position: relative
+		.img_link:hover
+			box-shadow: 0px 11px 14px 4px rgba(0,0,0,0.75)
+		.img_link:first-child
+			margin-left: 0
+		.blog_date
+			position: absolute
+			left: 25px
+			top: 30px
+		.link_descr
+			color: #ffffff
+			font-family: 'Raleway', sans-serif
+			position: absolute
+			bottom: 23px
+			left: 20px
+			.link_title
+				font-size: 20px
+				font-weight: 700
+			.link_author
+				font-size: 13px
+				font-weight: 300
+	.wrapper_btn
+		padding-bottom: 100px
+		.btn_blog
+			margin: 0 auto
+			display: flex
+			justify-content: center
+			align-items: center	
+			font-size: 20px
+			font-weight: 300
+			width: 200px
+			height: 55px
+			background-color: #f72b3b
+		.btn_blog:hover
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5)
+		.btn_blog a
+			color: #ffffff
+			font-family: 'Raleway', sans-serif
+
+.contact
+	background: url('../img/bgi_contact.png') center center/cover no-repeat
+	.contact_defenition
+		text-align: center
+		padding-top: 100px
+		.contact_title
+			color: #262626
+			font-family: 'Raleway', sans-serif
+			font-size: 90px
+			font-weight: 700
+			margin-bottom: 25px
+		.contact_descr
+			color: #262626
+			font-family: 'Raleway', sans-serif
+			font-size: 17px
+			font-weight: 300
+			width: 50%
+			margin: 0 auto
+	.form_contact
+		padding-top: 46px
+		padding-bottom: 70px
+		display: flex
+		justify-content: space-between
+		.fields 
+			width: 50%
+		.fields form
+			display: flex
+			flex-direction: column
+			input
+				background-color: #00c4c4
+				opacity: 0.5
+				height: 50px
+				font-family: 'Raleway', sans-serif
+				font-size: 15px
+				font-weight: 300
+				font-style: normal
+				letter-spacing: normal
+				line-height: 25px
+				text-align: left
+				border: none
+				margin-bottom: 15px
+			input:focus 
+				outline: none
+				opacity: 1
+				border-left: 5px solid  #355b82
+			textarea
+				font-family: 'Raleway', sans-serif
+				font-size: 15px
+				font-weight: 300
+				font-style: normal
+				letter-spacing: normal
+				line-height: 25px
+				text-align: left
+				background-color: #00c4c4
+				opacity: 0.5
+				border: none
+				resize: none
+			textarea:focus
+				opacity: 1
+				outline: none
+				border-left: 5px solid  #355b82
+		.address
+			padding-left: 15px 
+			color: #262626
+			font-family: 'Raleway', sans-serif
+			font-size: 20px
+			font-weight: 300
+		.address span 
+			font-family: 'Raleway', sans-serif
+			font-size: 17px
+			font-weight: 700
+		.address > div 
+    		padding-bottom: 15px
+
+.footer
+	background-color: #262626 
+	.footer_wrapper
+		height: 90px
+		display: flex
+		justify-content: space-between
+		align-items: center
+		.footer_reserved
+			color: #b9b9b9
+			font-family: Raleway
+			font-size: 15px
+		.footer_logo
+			font-family: 'Pacifico', cursive
+			font-size: 35px
+			font-weight: 400
+			color: #b9b9b9
+			padding: 0 10px
+		.footer_made
+			color: #b9b9b9
+			font-family: 'Raleway', sans-serif
+			font-size: 15px
+			font-weight: 300
+		.footer_made span
+			color: #ff2b58
+
+
