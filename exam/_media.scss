@@ -1,0 +1,240 @@
+@media ( max-width: 1024px ) {
+   
+   
+    .choose {
+        .container-choose {
+
+            .choose-imgs {
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+.choose {
+    .container-choose {
+        .choose-defenition {
+            margin-left: 0;
+        }
+        .img__mount {
+            margin-left: 70px;
+        }
+    }
+}
+
+.menu__items {
+
+    .menu__logo {
+        font-size: 21px;
+        
+    }
+    .menu__item {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+}
+
+.steps {
+    .steps__title {
+        font-size: 21px;
+    }
+
+    .steps__item {
+        img {
+            padding-left: 30px;
+            padding-bottom: 30px;
+        }
+    }
+}
+
+.reviews {
+    .reviews-card {
+        .reviews__name {
+            padding: 16px 0 17px 60px;
+        }
+        .reviews__descr {
+            font-size: 14px;
+        }
+    }
+}
+
+@media ( max-width: 768px ) {
+   .search__area {
+        .banner__form {
+           width: 108%;
+
+           input[type=search] {
+               padding-left: 0;
+               font-size: 12px;
+           }
+           input[type=submit] {
+               width: 36%;
+           }
+    }
+   }
+
+
+   .banner-defenition {
+    .banner__title {
+        font-size: 43px;
+    }
+} 
+    .menu__items {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba($color: #000000, $alpha: .7);
+        right: -100%;
+        transition: .6s all;
+        
+        .menu__item {
+            margin-bottom: 20px;
+        }
+    }
+    .menu__active {
+        right: 0;
+    }
+
+    .menu {
+        position: relative;
+        .hamburger {
+            display: block;
+            position: absolute;
+            right: 10px;
+            top: 35px;
+            transform: translateY(-50%);
+            width: 26px;
+            height: 12px;
+
+            span {
+                display: block;
+                height: 2px;
+                width: 100%;
+                background-color: #fff;
+                margin-bottom: 2px;
+                transition: .5s all;
+            } 
+        }
+        .hamburger__active {
+            span {
+                margin-bottom: -2px;
+                &:nth-child(1) {
+                    transform: rotate(-45deg);
+                }
+                &:nth-child(2) {
+                    display: none;
+                }
+                &:nth-child(3) {
+                    transform: rotate(45deg);
+                }
+            }
+        }
+    }
+
+    .reviews {
+        .reviews-card {
+            flex-direction: column;
+            font-size:12px;
+
+            .reviews__name {
+                padding-top: 5px;
+            }
+            .reviews__descr {
+                padding-left: 5px;
+            }
+        }
+    }
+
+    .choose {
+        .container-choose {
+            display: flex;
+            flex-direction: column-reverse;
+            
+            .choose-imgs {
+                padding-top: 5px;
+                padding-bottom: 0;
+                .img__mount {
+                    margin-left: 0;
+                }
+            }
+        }
+
+        .choose-defenition {
+            padding-top: 0;
+            .choose__title {
+                padding-bottom: 5px;
+                font-size: 30px;
+            }
+            .choose__descr {
+                padding-bottom: 10px;
+            }
+            .btn {
+                margin-top: 0;
+            }
+        }
+    }
+
+}
+
+
+@media ( max-width: 425px ) {
+    .header-banner {
+        .banner__descr {
+            font-size: 20px;
+        }
+        .banner__title {
+            font-size: 34px;
+        }
+    }
+
+
+    .steps  {
+        .steps-wrapper {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 5px 0;
+
+            .steps__item {
+                img {
+                    padding-bottom: 8px;
+                }
+            }
+        }
+        
+    }
+
+
+    .first-spain {
+        .container {
+            .first-spain-defenition {
+                padding: 50px 0 50px 7px;
+
+
+                .first__spain__descr {
+                    padding-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    .second-spain {
+        .container {
+            .second-spain-defenition {
+                padding: 50px 0 50px 7px;
+
+
+                .second__spain__descr {
+                    padding-bottom: 5px;
+                }
+            }
+        }
+    }
+}
