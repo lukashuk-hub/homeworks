@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Georgia Regular';
+    src: 
+    url('Georgia.woff') format('woff'),
+    url('Georgia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Georgia Italic';
+    src: url('../fonts/Georgia-Italic.eot');
+    src: url('../fonts/Georgia-Italic.ttf') format('embedded-opentype'),
+    url('../fonts/Georgia-Italic.woff') format('woff'),
+    url('../fonts/Georgia-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: 
+    url('ProximaNova-Regular.woff') format('woff'),
+    url('ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Futura PT';
+    src: 
+    url('FuturaPT-Book.woff') format('woff'),
+    url('FuturaPT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display Regular';
+    src: 
+    url('PlayfairDisplay-Regular.woff') format('woff'),
+    url('PlayfairDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #464f54;
+}
+
+.wrapper {
+    position: relative;
+    padding-top: 142px;
+}
+
+.black_block {
+    position: relative;
+    float: right;
+    width: 876px;
+    height: 187px;
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+    background-color: #181818;
+    margin-top: -90px;
+    z-index: 2;
+}
+
+.black_block input {
+    background: #181818;
+    width: 100%;
+    border-top: none;
+    border-left:  none;
+    padding-top: 65px;
+    margin-left: 64px;
+    color: #fefefe;
+    font-family: 'Playfair Display Regular';
+    font-size: 52px;
+    font-weight: 400;
+
+}
+
+.black_block p {
+    position: absolute;
+    color: #767676;
+    left: 63px;
+    font-family: "Proxima Nova";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 109.03px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+
+} 
+
+.yellow_block {
+    width: 812px;
+    height: 76px;
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+    background-color: #fbc02d;
+    position: absolute;
+    right: 0;
+    top: 238px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+}
+
+.content {
+    position: relative;
+    margin: 0 auto;
+    width: 1060px;
+    height: 1195px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.22);
+    background-color: #ffffff;
+}
+
+.line {
+    border-left: 2px solid #e8eced;
+    height: 100%;
+    margin-left: 67px;
+}
+
+.date {
+    position: absolute;
+    top: 202px;
+    left: 125px;
+    color: #b4b4b4;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6.72px;
+}
+
+.content h1 {
+    position: absolute;
+    top: 266px;
+    left: 127px;
+    color: #2a2a2a;
+    font-family: 'Futura PT';
+    font-size: 78px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 73.52px;
+    letter-spacing: 5.28px;
+}
+
+.content h2 {
+    color: #8f8f8f;
+    font-family: 'Georgia Regular';
+    font-style: italic;
+    font-size: 30px;
+    line-height: 62.44px;
+    position: absolute;
+    top: 341px;
+    left: 123px;
+}
+
+.first_p {
+    position: absolute;
+    top: 423px;
+    left: 124px;
+    color: #000000;
+    font-family: Georgia;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 40.38px;
+    /* Text style for "I've seen" */
+    font-family: Georgia;
+}
+
+.second_p {
+    position: absolute;
+    top: 608px;
+    left: 124px;
+    color: #000000;
+    font-family: Georgia;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 40.38px;
+}
+
+.first_p span {
+    font-family: 'Georgia Italic';
+}
